@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid red;
+  border-radius: 4px;
+}
+</style>
+</head>
+<body>
+
+<p align="center"><b>Medical History of {{var1}}</b></p>
+
+<form action="http://localhost:5000/fta">
+  <label for="fname">User Name</label>
+  <input type="text" id="lname1" name="fname1" value={{var1}} readonly>
+  <label for="lname">Age</label>
+  <input type="text" id="lname2" name="fname2" value={{var2}} readonly>
+  <label for="lname">Gender</label>
+  <input type="text" id="lname3" name="fname3" value={{var3}} readonly>
+  <label for="lname">Height</label>
+  <input type="text" id="lname4" name="fname4" value={{var4}} readonly>
+  <label for="lname">Weight</label>
+  <input type="text" id="lname5" name="fname5" value={{var5}} readonly>
+  <label for="lname">Vaccines Completed</label>
+  <input type="text" id="lname6" name="fname6" value={{var6}} readonly>
+  <label for="lname">Allergy</label>
+  <input type="text" id="lname7" name="fname7" value={{var7}} readonly>
+  <label for="lname">Previous Health Issues</label>
+  <input type="text" id="lname8" name="fname8" value={{var8}} readonly>
+  <label for="lname">Blood Group</label>
+  <input type="text" id="lname9" name="fname9" value={{var9}} readonly>
+  <label for="lname">Unusual Symptoms</label>
+  <input type="text" id="lname10" name="fname10" value={{var10}} readonly>
+  <br>
+  <br>
+  <input type = "submit" value = "Submit for a Future Appointment" align="center" />
+  
+</form>
+
+</body>
+</html>
