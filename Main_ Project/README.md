@@ -1,9 +1,9 @@
 
 
-#Project: - Sabka Sath Sabka Vikas  
+# Project: - Sabka Sath Sabka Vikas  
 
 
-##Project Objectives
+## Project Objectives
 	
 	The idea of the project is to provide an interactive platform for the government to enhance the reach of medical supplies in rural areas our country. 
 	In the recent years our country has been facing problem in giving advanced medical facilities in villages.
@@ -21,7 +21,7 @@
 
 
 	
-##Target of Application
+## Target of Application
 
 1. Reduce stress on the medical facilities with low staff.
 2. Provide a centralized platform for viewing healthcare statistics over a period.
@@ -30,7 +30,7 @@
 5. Keeping track of the updates of the situation of the villages after every medical attention.
 
 
-##Deliverables
+## Deliverables
 
 1. Portal for the doctor-on-duty for search the patient’s history
 2. Query system for the users to register any problem faced while using the portal
